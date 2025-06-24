@@ -1,9 +1,9 @@
 
 const ServicesOverview = () => {
   return(
-   <section id="services" className="min-h-screen py-16 md:py-24 bg-gray-100">
+   <section id="services" className="min-h-screen py-16 md:py-24 bg-orange-400 text-white">
     <div className="container mx-auto px-4 md:px-8">
-      <h2 className="text-center text-3xl md:text-4xl font-bold mb-6">
+      <h2 className="text-center italic text-3xl md:text-4xl font-bold mb-6">
          welke diensten bied ik aan?
         </h2>
       <p className="text-center text-lg md:text-xl mb-8 mx-8">

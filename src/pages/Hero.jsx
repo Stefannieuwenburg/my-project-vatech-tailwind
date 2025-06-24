@@ -20,7 +20,7 @@ const Hero = () => {
 
       {/* Inhoud Hero */}
       <div className="relative z-20 text-center px-4">
-        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
+        <h1 className="text-4xl italic md:text-6xl font-extrabold leading-tight mb-4">
           Jouw Partner in Technologische Efficiëntie
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8">

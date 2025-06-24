@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { scroller } from 'react-scroll';
+import WebDevLogo from "../assets/image/LogoOranje.png"; 
 
 const sections = [
   { id: 'hero', label: 'Home' },
@@ -37,8 +38,9 @@ const Navbar = () => {
     <nav className="bg-white shadow-md p-4 fixed w-full z-50 top-0">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <Link to="/" className="text-2xl font-bold text-black" onClick={() => handleClick('hero')}>
-          WebDevStefan
+        <Link to="/" className="flex items-center space-x-2 text-2xl font-bold text-black" onClick={() => handleClick('hero')}>
+         <img src={WebDevLogo} alt="WebDevStefan Logo" className="h-10 w-auto transform transition duration-300 hover:scale-110 hover:brightness-110" />
+        {/* <span className="text-2xl font-bold text-black">WebDevStefan</span> */}
         </Link>
 
         {/* Navigatie desktop */}
@@ -47,19 +49,19 @@ const Navbar = () => {
             <button
               key={id}
               onClick={() => handleClick(id)}
-              className="text-gray-700 hover:text-[#F37021] transition duration-300"
+              className="text-gray-700 hover:text-[#F37021] transition duration-300  hover:scale-110 hover:brightness-110"
             >
               {label}
             </button>
           ))}
-          <Link to="/contact" className="text-gray-700 hover:text-[#F37021] transition duration-300">
+          <Link to="/contact" className="text-gray-700 hover:text-[#F37021] transition duration-300 hover:scale-110 hover:brightness-110">
             Contact
           </Link>
           <a
             href="https://freelancestefannieuwenburg.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-700 hover:text-[#F37021]"
+            className="text-gray-700 hover:text-[#F37021] transition duration-300 hover:scale-110 hover:brightness-110"
           >
             Portfolio
           </a>
@@ -67,7 +69,7 @@ const Navbar = () => {
 
         {/* Hamburger knop */}
         <button
-          className="md:hidden text-gray-600 hover:text-[#F37021] focus:outline-none"
+          className="md:hidden text-gray-600 hover:text-[#F37021] focus:outline-none transition duration-300 hover:scale-110 hover:brightness-110  "
           onClick={() => setMenuOpen(!menuOpen)}
         >
           {menuOpen ? (
@@ -85,14 +87,14 @@ const Navbar = () => {
                 <li key={id}>
                   <button
                     onClick={() => handleClick(id)}
-                    className="text-gray-700 hover:text-[#F37021] transition duration-300"
+                    className="text-gray-700 hover:text-[#F37021] focus:outline-none transition duration-300 hover:scale-110 hover:brightness-110  "
                   >
                     {label}
                   </button>
                 </li>
               ))}
               <li>
-                <Link to="/contact" onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-[#F37021]">
+                <Link to="/contact" onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-[#F37021] focus:outline-none transition duration-300 hover:scale-110 hover:brightness-110">
                   Contact
                 </Link>
               </li>
@@ -101,7 +103,7 @@ const Navbar = () => {
                   href="https://portfolio-stefan-nieuwenburg.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-700 hover:text-[#F37021]"
+                  className="text-gray-700 hover:text-[#F37021] focus:outline-none transition duration-300 hover:scale-110 hover:brightness-110"
                 >
                   Portfolio
                 </a>

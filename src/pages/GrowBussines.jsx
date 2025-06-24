@@ -11,7 +11,7 @@ const AfspraakComponent = () => {
   <>
     <section className="bg-white py-16 px-6 md:px-12 lg:px-24 text-gray-800">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6">
+        <h2 className="text-3xl italic md:text-4xl font-bold mb-6">
           laat mij jouw maatwerkwebsite ontwikkelen
         </h2>
          
@@ -33,9 +33,9 @@ const AfspraakComponent = () => {
         </button>
       </div>
     </section>
-    <section className="bg-gray-50 py-16 px-6 md:px-12 lg:px-24 text-gray-800">
+    <section className="bg-[#F6E4D4] py-16 px-6 md:px-12 lg:px-24 text-gray-800">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6">Waarom kiezen voor maatwerk?</h2>
+        <h2 className="text-3xl italic md:text-4xl font-bold mb-6">Waarom kiezen voor maatwerk?</h2>
         <ul className="list-disc pl-6 space-y-4">
           <li>Unieke branding die perfect aansluit bij jouw merk</li>
           <li>Volledige flexibiliteit in design en functionaliteit</li>

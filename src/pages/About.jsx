@@ -15,10 +15,10 @@ const About = () => {
 
           {/* Tekst Inhoud (Rechter Kolom op desktop) */}
           <div className="md:w-3/5 text-center md:text-left">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+            <h2 className="text-2xl font-semibold italic text-gray-800 mb-4">
               Welkom bij Stefan Nieuwenburg: <br />Jouw Tech VA Partner
             </h2>
-            <h3 className="text-2xl font-semibold text-gray-800 mb-4">
+            <h3 className="text-2xl font-semibold italic text-gray-800 mb-4">
               Kort en Krachtig: Wie ik Ben & Wat ik Doe
             </h3>
             <p className="text-gray-600 leading-relaxed mb-6">

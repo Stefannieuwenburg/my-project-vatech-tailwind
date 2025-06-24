@@ -32,7 +32,7 @@ const Testimonials = () => {
     <section id="testimonials" className="min-h-screen py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4 md:px-8 text-center">
           <div className="container mx-auto px-4 md:px-8">
-      <h2 className="text-center text-3xl md:text-4xl font-bold mb-6">
+      <h2 className="text-center italic text-3xl md:text-4xl font-bold mb-6">
          Wat mijn cliënten zeggen over mij service
         </h2>
       <p className="text-center text-lg md:text-xl mb-8 mx-8">
@@ -43,18 +43,18 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-gray-50 p-8 rounded-lg shadow-md border border-gray-200"
+              className="bg-[#1F2630] p-8 rounded-lg shadow-md border border-gray-200"
               data-aos="fade-left"
               data-aos-delay={index * 150}
             >
              <div className="text-yellow-400 text-lg mb-2">
               ★★★★★
              </div>
-              <p className="text-gray-700 italic mb-6">"{testimonial.quote}"</p>
+              <p className="text-white italic mb-6">"{testimonial.quote}"</p>
               <div className="flex items-center justify-center">
                 <div>
-                  <p className="font-semibold text-gray-800">{testimonial.name}</p>
-                  <p className="text-sm text-gray-500">{testimonial.title}</p>
+                  <p className="font-semibold text-white">{testimonial.name}</p>
+                  <p className="text-sm text-white">{testimonial.title}</p>
                 </div>
               </div>
             </div>
