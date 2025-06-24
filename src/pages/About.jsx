@@ -1,3 +1,4 @@
+import image from '../assets/image/Stefanoranje.png'; 
 const About = () => {
   return (
     <section id="about" className="min-h-screen py-16 md:py-24 bg-white">
@@ -6,7 +7,7 @@ const About = () => {
           {/* Afbeelding (Linker Kolom op desktop) */}
           <div className="md:w-2/5 flex justify-center mb-8 md:mb-0">
             <img
-              src="./src/assets/image/Stefanoranje.png" // Vervang met je eigen foto
+              src={image}
               alt="Jouw Naam - Virtueel Assistent"
               className="rounded-lg shadow-xl w-full max-w-xs md:max-w-none transform rotate-3 hover:rotate-0 transition-transform duration-500"
             />

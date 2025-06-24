@@ -1,4 +1,4 @@
-
+import VideoBal from "../assets/video/bal.mp4";
 
 const Hero = () => {
   return (
@@ -12,7 +12,7 @@ const Hero = () => {
         playsInline
         className="absolute inset-0 w-full h-full object-cover z-0"
       >
-        <source src="./src/assets/video/bal.mp4" type="video/mp4" /> {/* Vervang door je eigen video */}
+        <source src={VideoBal} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
