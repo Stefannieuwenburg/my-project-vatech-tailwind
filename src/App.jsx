@@ -1,18 +1,50 @@
-import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Suspense, lazy } from 'react';
+
+const Layout = lazy(() => import('./layout/Layout'));
+const Hero = lazy(() => import('./pages/Hero'));
+const GrowBussines = lazy(() => import('./pages/GrowBussines'));
+const About = lazy(() => import('./pages/About'));
+const Services = lazy(() => import('./pages/Services'));
+const Testimonials = lazy(() => import('./pages/Testimonials'));
+const WorkPlanning = lazy(() => import('./pages/WorkPlanning'));
+const Action = lazy(() => import('./pages/Action'));
+const ContactPage = lazy(() => import('./pages/ContactPage'));
+
+
 function App() {
   return (
-   <div class="bg-gray-100 dark:bg-gray-800">
-  <div class="min-h-screen flex flex-col justify-center items-center">
-    <img src="https://www.svgrepo.com/show/426192/cogs-settings.svg" alt="Logo" class="mb-8 h-40"/>
-    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-gray-700 dark:text-white mb-4">Site is under maintenance</h1>
-    <p class="text-center text-gray-500 dark:text-gray-300 text-lg md:text-xl lg:text-2xl mb-8">We're working hard to improve the user experience. Stay tuned!</p>
-    <div class="flex space-x-4">
-      <a href="#" class="bg-gray-800 hover:bg-gray-700 text-white font-bold py-3 px-6 rounded dark:bg-gray-700 dark:hover:bg-gray-600">Contact Us</a>
-      <a href="#" class="border-2 border-gray-800 text-black font-bold py-3 px-6 rounded dark:text-white dark:border-white">Reload</a>
-    </div>
-  </div>
-</div>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Router>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <Layout>
+                <Hero />
+                <GrowBussines />
+                <About />
+                <Services />
+                <Testimonials />
+                <WorkPlanning  />
+                <Action />
+              </Layout>
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <Layout>
+                <ContactPage />
+              </Layout>
+            }
+          />
+        </Routes>
+      </Router>
+    </Suspense>
   );
 }
 
 export default App;
+
+
