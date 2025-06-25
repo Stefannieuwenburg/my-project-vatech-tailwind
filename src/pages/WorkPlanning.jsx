@@ -8,7 +8,7 @@ const WorkPlanning = () => {
   };
 
   return (
-    <section id="how-we-work" className="min-h-screen py-16 md:py-24 bg-gray-200 text-black">
+    <section id="how-we-work" className="min-h-screen py-16 md:py-24 bg-[#F6E4D4] text-black">
        <div className="container mx-auto px-4 md:px-8">
       <h2 className="text-center italic text-3xl md:text-4xl font-bold mb-6">
          Een paar simpelen stappen naar jouw nieuwe website

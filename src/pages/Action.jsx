@@ -11,7 +11,7 @@ const handleContactClick = () => {
   return (
     <section
       id="Action"
-      className="min-h-screen py-16 md:py-24 bg-[#F6E4D4] text-zwart text-center"
+      className="min-h-screen py-16 md:py-24 bg-[#FFFFFF] text-zwart text-center"
     >
       <div className="container mx-auto px-4 md:px-8">
         <h2 className="text-3xl italic md:text-4xl font-bold mb-6">
@@ -24,7 +24,7 @@ const handleContactClick = () => {
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-6">
 
   {/* Kaart 1 */}
-  <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition">
+  <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition">
     <h3 className="text-xl font-semibold text-gray-800 mb-2">
       Website met Wix: vanaf €250 (excl. btw), excl. hosting en domein.
     </h3>
@@ -53,7 +53,7 @@ const handleContactClick = () => {
   </div>
 
   {/* Kaart 2 */}
-  <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition">
+  <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition">
     <h3 className="text-xl font-semibold text-gray-800 mb-2">
       Website met Wix: vanaf €500 (excl. btw), excl. hosting en domein.
     </h3>
@@ -82,7 +82,7 @@ const handleContactClick = () => {
   </div>
 
   {/* Kaart 3 */}
-  <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition">
+  <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition">
     <h3 className="text-xl font-semibold text-gray-800 mb-2">
       React & Tailwind CSS vanaf €1000 (excl. btw), excl. hosting en domein.
     </h3>
