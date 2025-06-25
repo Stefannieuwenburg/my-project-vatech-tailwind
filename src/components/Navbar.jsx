@@ -8,6 +8,7 @@ const sections = [
   { id: 'services', label: 'Diensten' },
   { id: 'about', label: 'Over Mij' },
   { id: 'testimonials', label: 'Reviews' },
+  { id: 'packages', label: 'Paketten' },
 ];
 
 const Navbar = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
     scroller.scrollTo(id, {
       duration: 500,
       smooth: true,
-      offset: -80,
+      offset: -60,
     });
   };
 

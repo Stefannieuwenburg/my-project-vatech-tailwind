@@ -1,5 +1,7 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
+// Importeer de benodigde React Router hooks
+// Zorg ervoor dat je de juiste versie van React Router gebruikt
 const AfspraakComponent = () => {
   const navigate = useNavigate();
 
@@ -33,7 +35,7 @@ const AfspraakComponent = () => {
         </button>
       </div>
     </section>
-    <section className="bg-[#F6E4D4] py-16 px-6 md:px-12 lg:px-24 text-gray-800">
+    <section className="bg-[#F6E4D4] rounded-full py-16 px-6 md:px-12 lg:px-24 text-gray-800">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl italic md:text-4xl font-bold mb-6">Waarom kiezen voor maatwerk?</h2>
         <ul className="list-disc pl-6 space-y-4">
@@ -44,7 +46,7 @@ const AfspraakComponent = () => {
           <li>Schaalbaarheid voor toekomstige groei</li>
         </ul>
       </div>
-    </section>  
+    </section>
     </>
   );
 };
