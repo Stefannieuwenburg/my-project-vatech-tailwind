@@ -61,7 +61,7 @@ const Footer = () => {
             <p className="text-gray-400">
               Bezoek mijn portfolio:{' '}
               <a
-                href="https://freelancestefannieuwenburg.netlify.app/"
+                href="https://portfolio-stefan-nieuwenburg.netlify.app/"
                 className="text-orange-500 hover:underline"
               >
                 WebDevStefan

@@ -61,7 +61,7 @@ const Navbar = () => {
             Contact
           </Link>
           <a
-            href="https://freelancestefannieuwenburg.netlify.app/"
+            href="https://portfolio-stefan-nieuwenburg.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-700 hover:text-[#F37021] transition duration-300 hover:scale-110 hover:brightness-110"
