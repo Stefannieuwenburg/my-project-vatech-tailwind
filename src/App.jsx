@@ -9,7 +9,7 @@ const Services = lazy(() => import('./pages/Services'));
 const Testimonials = lazy(() => import('./pages/Testimonials'));
 const WorkPlanning = lazy(() => import('./pages/WorkPlanning'));
 const ContactPage = lazy(() => import('./pages/ContactPage'));
-const Packages = lazy(() => import('./pages/packages'));
+const Packages = lazy(() => import('./pages/Packages'));
 
 function App() {
   return (
