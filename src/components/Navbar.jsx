@@ -4,7 +4,6 @@ import { scroller } from 'react-scroll';
 import WebDevLogo from "../assets/image/LogoOranje.png"; 
 import Top from './Top';
 
-
 const sections = [
   { id: 'hero', label: 'Home' },
   { id: 'services', label: 'Diensten' },

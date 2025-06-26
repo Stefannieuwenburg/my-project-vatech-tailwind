@@ -26,7 +26,7 @@ const Testimonials = () => {
       
     },
   ];
-
+  
   return (
     <section id="testimonials" className="min-h-screen py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4 md:px-8 text-center">

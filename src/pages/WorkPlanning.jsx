@@ -6,7 +6,6 @@ const WorkPlanning = () => {
     const circumference = 2 * Math.PI * 40; // 2 * PI * radius (radius is 40)
     return circumference * (1 - percentage / 100);
   };
-
   return (
     <section id="how-we-work" className="min-h-screen rounded-full py-16 md:py-24 bg-[#F6E4D4] text-black">
        <div className="container mx-auto px-4 md:px-8">
@@ -23,7 +22,6 @@ const WorkPlanning = () => {
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Stap 1</h2>
         <div className="relative w-24 h-24 mb-4">
           <svg className="w-full h-full" viewBox="0 0 100 100">
-
             {/* Achtergrondcirkel */}
             <circle
               className="text-gray-200"
@@ -160,9 +158,7 @@ const WorkPlanning = () => {
       <div  className="bg-white flex flex-col items-center p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Stap 4</h2>
         <div className="relative w-24 h-24 mb-4">
-          <svg className="w-full h-full" viewBox="0 
-
-0 100 100">
+          <svg className="w-full h-full" viewBox="0 0 100 100">
             {/* Achtergrondcirkel */}
             <circle
               className="text-gray-200"
@@ -184,7 +180,6 @@ const WorkPlanning = () => {
               fill="transparent"
               r="40"
               cx="50"
-
               cy="50"
               transform="rotate(-90 50 50)"
             />
@@ -203,7 +198,6 @@ const WorkPlanning = () => {
         <p className="text-gray-600">
          Voor livegang testen we alles grondig: op bugs, browsers, mobiel-vriendelijkheid en toegankelijkheid (WCAG). Daarna volgt de lancering, met opvolging van prestaties via tools zoals Google Analytics. We blijven verbeteren op basis van gebruikersdata.
          Als je wil, kunnen we één van deze stappen samen in detail uitwerken of zelfs een checklist maken voor jouw specifieke project. Zin om ergens in te duiken? 
-
         </p>
       </div>
     </div>

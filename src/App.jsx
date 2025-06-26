@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
 
-
 const Layout = lazy(() => import('./layout/Layout'));
 const Hero = lazy(() => import('./pages/Hero'));
 const GrowBussines = lazy(() => import('./pages/GrowBussines'));

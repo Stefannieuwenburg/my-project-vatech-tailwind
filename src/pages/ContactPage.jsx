@@ -20,7 +20,6 @@ const Contact = () => {
           >
             <FaEnvelope /> Stuur een e-mail
           </a>
-
           <div className="relative inline-block">
             <button
               onClick={() => setShowPopup((prev) => !prev)}
@@ -43,7 +42,6 @@ const Contact = () => {
             <FaLinkedin /> LinkedIn
           </a>
         </div>
-
         <p className="text-sm text-gray-400">Je hoort meestal binnen 1 werkdag van me</p>
       </div>
     </section>

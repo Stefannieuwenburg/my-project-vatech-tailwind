@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useNavigate } from 'react-router-dom';
 // Importeer de benodigde React Router hooks
 // Zorg ervoor dat je de juiste versie van React Router gebruikt

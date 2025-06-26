@@ -1,5 +1,6 @@
 import image from '../assets/image/Stefanoranje.png'; 
 const About = () => {
+
   return (
     <section id="about" className="min-h-screen py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4 md:px-8">
@@ -23,7 +24,6 @@ const About = () => {
             <p className="text-gray-600 leading-relaxed mb-6">
              Mijn naam is Stefan Nieuwenburg en ik ben jouw betrouwbare Virtual Assistant, gespecialiseerd in technische oplossingen die jouw bedrijf helpen groeien. Met een diepe passie voor technologie en een bewezen trackrecord in webontwikkeling en onderhoud, bied ik ondersteuning op maat voor elke digitale uitdaging.
             </p>
-
             <p className="text-gray-600 leading-relaxed mb-8">
              Of je nu een professionele website bouwt met platforms zoals Wix.com, of een op maat gemaakte site ontwikkelt met React en Tailwind CSS, ik zorg ervoor dat jouw online aanwezigheid naadloos aansluit bij jouw bedrijfsdoelen.
             </p>

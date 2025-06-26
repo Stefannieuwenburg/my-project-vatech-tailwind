@@ -8,7 +8,6 @@ const Hero = () => {
         autoPlay
         loop
         muted
-
         playsInline
         className="absolute inset-0 w-full h-full object-cover z-0"
       >
@@ -22,7 +21,6 @@ const Hero = () => {
           Jouw Partner in Technologische Efficiëntie
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8">
-
           Ontdek hoe een gespecialiseerde Virtual Assistant jouw bedrijf naar een hoger niveau tilt.
         </p>
         <a

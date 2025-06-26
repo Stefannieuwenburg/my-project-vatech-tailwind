@@ -2,7 +2,9 @@
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
+
   return (
+    <>
     <footer className="w-full bg-[#1F2630] text-gray-300 py-6">
       <div className="max-w-6xl mx-auto px-6">
         {/* Socials */}
@@ -73,6 +75,7 @@ const Footer = () => {
         </p>
       </div>
     </footer>
+  </>
   );
 };
 

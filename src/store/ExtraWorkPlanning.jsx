@@ -7,7 +7,6 @@ const Werkwijze = () => {
       <p className="mb-6">
         Een website bouwen is altijd maatwerk. Aan de hand van jouw wensen zal ik een speciaal voor jou op maat gemaakte website bouwen.
       </p>
-
       <ol className="list-decimal ml-6 space-y-4">
         <li>
           <h2 className="text-xl font-semibold">Kennismaking</h2>
