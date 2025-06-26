@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { scroller } from 'react-scroll';
 import WebDevLogo from "../assets/image/LogoOranje.png"; 
+import Top from './Top';
+
 
 const sections = [
   { id: 'hero', label: 'Home' },
@@ -36,10 +38,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-md p-4 fixed w-full z-50 top-0">
+    <nav className="bg-white shadow-md fixed w-full z-50 top-0">
+      <Top />
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <Link to="/" className="flex items-center space-x-2 text-2xl font-bold text-black" onClick={() => handleClick('hero')}>
+        <Link to="/" className="flex items-center mt-2 mb-2 space-x-2 text-2xl font-bold text-black" onClick={() => handleClick('hero')}>
          <img src={WebDevLogo} alt="WebDevStefan Logo" className="h-10 w-auto transform transition duration-300 hover:scale-110 hover:brightness-110" />
         {/* <span className="text-2xl font-bold text-black">WebDevStefan</span> */}
         </Link>

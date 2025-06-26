@@ -39,21 +39,21 @@ const Footer = () => {
               Heb je vragen of wil je samenwerken?<br/> 
               Stuur een e-mail naar:{' '}
               <a
-                href="mailto:nieuwenburg.stefan@gmail.com"
+                href="mailto:info@webdevstefan.nl"
                 className="text-orange-500 hover:underline"
               >
-                nieuwenburg.stefan@gmail.com
+               info@webdevstefan.nl
               </a>
             </p>
           </div>
           <div className="flex-1 space-y-2">
             <p className="text-gray-400">
-              Of bel mij op:{' '}
+                Je kunt me bereiken op  📞
               <a
-                href="tel:+310626142085"
+                href="tel:+31626142085"
                 className="text-orange-500 hover:underline"
               >
-                +310626142085
+               +31626142085
               </a>
             </p>
             <p className="text-gray-400">
