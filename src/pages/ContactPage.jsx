@@ -13,7 +13,6 @@ const Contact = () => {
         <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-10">
           Heb je een vraag, wil je samenwerken of gewoon even sparren? Stuur me gerust een bericht of neem direct contact op!
         </p>
-
         <div className="flex flex-col md:flex-row justify-center gap-6 mb-12">
           <a
             href="mailto:nieuwenburg.stefan@gmail.com"
@@ -29,7 +28,6 @@ const Contact = () => {
             >
               <FaPhone /> Bel mij
             </button>
-
             {showPopup && (
               <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 bg-white border border-gray-300 shadow-md rounded px-4 py-3 text-sm text-gray-800 z-10">
                 📞 Je kunt me bereiken op <br/> <strong>06-26142085</strong>

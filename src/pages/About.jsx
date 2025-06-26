@@ -12,7 +12,6 @@ const About = () => {
               className="rounded-lg shadow-xl w-full max-w-xs md:max-w-none transform rotate-3 hover:rotate-0 transition-transform duration-500"
             />
           </div>
-
           {/* Tekst Inhoud (Rechter Kolom op desktop) */}
           <div className="md:w-3/5 text-center md:text-left">
             <h2 className="text-2xl font-semibold italic text-gray-800 mb-4">
@@ -34,8 +33,7 @@ const About = () => {
             <a
               href="#services"
              className="bg-[#F37021] text-white px-6 py-3 rounded hover:bg-orange-600 transition"
-        rel="noopener noreferrer">
-            
+             rel="noopener noreferrer">
               Ontdek Mijn Diensten
             </a>
           </div>

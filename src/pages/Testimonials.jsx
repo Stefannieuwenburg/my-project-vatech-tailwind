@@ -6,7 +6,6 @@ const Testimonials = () => {
   useEffect(() => {
     AOS.init({ duration: 800, once: true });
   }, []);
-
   const testimonials = [
     {
       quote: "Sinds Stefan Nieuwenburg onze site heeft vernieuwd, merken we meteen verschilen. We hebben meer klanten, betere winst én een betrouwbare website zonder haperingen.Superblij met zijn werk!",

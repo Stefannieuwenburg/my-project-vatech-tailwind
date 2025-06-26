@@ -29,7 +29,6 @@ const Footer = () => {
             <FaInstagram />
           </a>
         </div>
-
         {/* Contactinformatie */}
         <div className="flex flex-col md:flex-row gap-4 text-center md:text-center text-sm">
           <div className="flex-1 space-y-2">
@@ -68,7 +67,6 @@ const Footer = () => {
             </p>
           </div>
         </div>
-
         {/* Copyright */}
         <p className="text-center text-gray-500 mt-6 text-xs">
           &copy; {new Date().getFullYear()} Tech Virtual Assistant. All rights reserved by Stefan Nieuwenburg. Alle rechten voorbehouden.

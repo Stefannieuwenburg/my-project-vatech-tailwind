@@ -28,14 +28,12 @@ const ServicesOverview = () => {
 </ul>
           </p>
         </div>
-
         {/*  Web Development met React en Tailwind CSS */}
         <div className="bg-white flex flex-col items-center p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2">
           <h4 className="text-xl font-semibold text-[#F37021] mb-4">Web Development met <br/>React en Tailwind CSS</h4>
           <h2 className="text-gray-600"><strong>Waarom kiezen voor React en Tailwind CSS?</strong></h2>
           <h2>React en Tailwind CSS vormen samen een krachtige combinatie voor het ontwikkelen van snelle, schaalbare en volledig op maat gemaakte websites.
-
-</h2>
+         </h2>
 <p className="text-gray-600"><strong>Wat zijn de voordelen voor jou als klant?: </strong><br/>maximale vrijheid in design en functionaliteit,zonder dat je vastzit aan templates of beperkingen van een CMS.</p>
           <p className="text-gray-600">
            <ul>

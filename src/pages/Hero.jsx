@@ -15,9 +15,7 @@ const Hero = () => {
         <source src={VideoBal} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-
-     
-
+      {/* Overlay voor betere leesbaarheid */}
       {/* Inhoud Hero */}
       <div className="relative z-20 text-center px-4">
         <h1 className="text-4xl italic md:text-6xl font-extrabold leading-tight mb-4">

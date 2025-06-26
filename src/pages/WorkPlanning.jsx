@@ -43,7 +43,6 @@ const WorkPlanning = () => {
               strokeLinecap="round"
               stroke="currentColor"
               fill="transparent"
-
               r="40"
               cx="50"
               cy="50"
@@ -63,11 +62,8 @@ const WorkPlanning = () => {
         <h4 className="text-xl font-semibold text-gray-800 mb-4">Kennis makings gesprek</h4>
         <p className="text-gray-600">
           Allereerst plannen we een digitale kennismakingsgesprek in. Hierin kunnen we elkaar een beetje leren kennen, jouw wensen bespreken en jouw vragen beantwoorden. Als jij voelt dat er een klik is, dan gaan we samenwerken!
-        
         </p>
-
       </div>
-
       {/*  Stap 2 - 50% */}
       <div  className="bg-white flex flex-col items-center p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Stap 2</h2>
@@ -86,7 +82,6 @@ const WorkPlanning = () => {
             {/* Voortgangscirkel (Oranje, dun) */}
             <circle
               className="text-orange-500"
-
               strokeWidth="5"
               strokeDasharray={2 * Math.PI * 40}
               strokeDashoffset={calculateStrokeDashoffset(50)}
@@ -108,14 +103,12 @@ const WorkPlanning = () => {
               50%
             </text>
           </svg>
-
         </div>
         <h4 className="text-xl font-semibold text-gray-800 mb-4"> Ontwerp & Strategie</h4>
         <p className="text-gray-600">
           in deze fase duiken we diep in jouw project. We analyseren je concurrentie en brengen in kaart wat wel en niet werkt op je huidige site (indien van toepassing).Op basis van de informatie die we hebben gekregen en jouw doelgroep in kaart is gebracht ontwikkelen we wireframes, sitemaps en visuele moodboards. We maken keuzes rond user flow, merkbeleving en functionaliteit. De focus ligt hier op gebruiksvriendelijkheid, responsiviteit en conversiegericht denken. Jij wordt bij elke iteratie betrokken.
         </p>
       </div>
-
       {/* Stap 3 - 75% */}
       <div  className="bg-white flex flex-col items-center p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Stap 3</h2>
@@ -127,7 +120,6 @@ const WorkPlanning = () => {
               strokeWidth="5"
               stroke="currentColor"
               fill="transparent"
-
               r="40"
               cx="50"
               cy="50"
