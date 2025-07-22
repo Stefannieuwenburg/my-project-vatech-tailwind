@@ -14,7 +14,7 @@ const AfspraakComponent = () => {
     <section className="bg-white py-16 px-6 md:px-12 lg:px-24 text-gray-800">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl italic md:text-4xl font-bold mb-6">
-          laat mij jouw maatwerkwebsite ontwikkelen
+          Laat mij jouw maatwerkwebsite ontwikkelen
         </h2>
         <p className="text-lg md:text-xl mb-4">
           Wil jij volledige controle over de stijl, indeling en functies van je website? Wil je je echt online onderscheiden? Maar vooral:  
