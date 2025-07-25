@@ -15,7 +15,7 @@ const Testimonials = () => {
     },
     {
       quote: "Dankzij de nieuwe portfolio-pagina van Stefan Nieuwenburg ziet onze praktijk er online net zo professioneel uit als in het echt. We hebben sindsdien een duidelijke toename in nieuwe patiënten gezien. Fantastisch werk!",
-      name: "Mine Almaz",
+      name: "Mine Yazıcı",
       title: "Portfolio Eigenaar",
      
     },
