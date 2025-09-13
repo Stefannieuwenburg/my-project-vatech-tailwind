@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FaEnvelope, FaPhone, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
+
 const Contact = () => {
   const [showPopup, setShowPopup] = useState(false);
 
@@ -55,6 +56,7 @@ const Contact = () => {
         <p className="text-sm text-gray-400">Je hoort meestal binnen 1 werkdag van me</p>
       </div>
     </section>
+    
   );
 };
 
