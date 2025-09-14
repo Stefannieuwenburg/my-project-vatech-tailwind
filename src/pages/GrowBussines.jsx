@@ -58,7 +58,7 @@ const AfspraakComponent = () => {
                         <li>Schaalbaarheid voor toekomstige groei</li>
                     </ul>
                 </div>
-                <div className="fixed bottom-8 right-16 z-50">
+                <div className="fixed bottom-8 right-18 z-50">
                     <a
                         aria-label="Chat on WhatsApp"
                         href="https://wa.me/31626142085?text=Hi%20Stefan%2C%20I%20found%20your%20website%20and%20wanted%20to%20connect!"
